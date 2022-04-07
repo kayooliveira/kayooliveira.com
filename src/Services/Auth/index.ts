@@ -23,7 +23,9 @@ export const setUserToken = (token: string) => {
 export const getUserToken = () => {
     try {
         const token = localStorage.getItem('user-token')
-        return token && JSON.parse(token)
+        if (token) {
+            return JSON.parse(token)
+        }
     } catch (error) {
         Notify.error()
     }

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Index from '../../Components/Index'
 /**
  *
  * @version 0.0.1
@@ -10,8 +10,8 @@ import React from 'react'
  *
  */
 
-const Index: React.FC = () => {
-    return <>Index</>
+const IndexPage: React.FC = () => {
+    return <Index />
 }
 
-export default Index
+export default IndexPage

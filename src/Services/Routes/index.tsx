@@ -5,7 +5,7 @@ import {
     Route
 } from 'react-router-dom'
 import NotFound from '../../Components/NotFound'
-import Index from '../../Pages/Index/index'
+import IndexPage from '../../Pages/Index/index'
 // import RequireAuth from './RequireAuth' // Uncomment if needs authenticated routes
 
 /**
@@ -23,7 +23,7 @@ const Routes: React.FC = () => {
         <>
             <Router>
                 <Switch>
-                    <Route path="/" element={<Index />} />
+                    <Route path="/" element={<IndexPage />} />
                     <Route path="*" element={<NotFound />} />
                 </Switch>
             </Router>

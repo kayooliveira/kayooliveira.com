@@ -13,15 +13,16 @@ import { createStitches } from '@stitches/react'
 export const { styled, css } = createStitches({
     media: {
         esm: '(max-width: 575.98px)', // Extra small
-        sm: '(min-width: 576px) and (max-width: 767.98px)', // Small
-        md: '(min-width: 768px) and (max-width: 991.98px)', // Medium
-        lg: '(min-width: 992px) and (max-width: 1199.98px)', // Large
+        sm: '(min-width: 576px)', // Small
+        md: '(min-width: 768px)', // Medium
+        lg: '(min-width: 992px)', // Large
         elg: '(min-width: 1200px)' // Extra large
     },
     theme: {
         colors: {
             primary: '',
-            secondary: ''
+            secondary: '',
+            background: '#020c01'
         },
         space: {
             1: '0.25rem', // 4px

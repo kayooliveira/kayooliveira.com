@@ -25,6 +25,7 @@ api.interceptors.request.use(config => {
             Authorization: `Bearer ${JSON.parse(token)}`
         }
     }
+    return config
 })
 
 export default api
