@@ -8,7 +8,7 @@ export const IndexContainer = styled('div', {
     width: '100vw',
     minHeight: '100vh',
     height: '100%',
-    maxWidth: '100vw',
+    maxWidth: '100%',
     overflow: 'hidden',
     padding: '1rem',
     flexDirection: 'column',
