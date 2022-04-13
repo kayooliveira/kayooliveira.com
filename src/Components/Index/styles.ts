@@ -1,6 +1,6 @@
 import { styled } from '../../Services/Styled'
 import { keyframes } from '@stitches/react'
-import bgLarge from '../../Assets/img/bglarge.png'
+import bgLarge from '../../Assets/img/bglarge.jpg'
 export const IndexContainer = styled('div', {
     display: 'flex',
     alignItems: 'center',
