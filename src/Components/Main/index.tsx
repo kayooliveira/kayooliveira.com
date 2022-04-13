@@ -17,8 +17,7 @@ const Main = () => {
                 Kayo Oliveira
             </Text>
             <Text color="white" transform="uppercase" weight="bold">
-                website in development
-                <br /> please come back soon...
+                website in development, please come back soon...
             </Text>
         </MainContainer>
     )
