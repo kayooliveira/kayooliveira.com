@@ -2,7 +2,8 @@ import React from 'react'
 import * as C from './styles'
 import logo from '../../Assets/img/logo.png'
 import { Text } from '../../UI/Text'
-import { FaCaretDown, FaChevronDown } from 'react-icons/fa'
+import { FaChevronDown } from 'react-icons/fa'
+
 const Index: React.FC = () => {
     return (
         <>
