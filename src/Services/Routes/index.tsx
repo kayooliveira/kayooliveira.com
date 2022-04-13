@@ -23,8 +23,10 @@ const Routes: React.FC = () => {
         <>
             <Router>
                 <Switch>
-                    <Route path="/" element={<IndexPage />} />
-                    <Route path="*" element={<NotFound />} />
+                    <Route path="/">
+                        <Route index element={<IndexPage />} />
+                        <Route path="*" element={<NotFound />} />
+                    </Route>
                 </Switch>
             </Router>
         </>
