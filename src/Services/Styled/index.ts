@@ -74,7 +74,21 @@ export const { styled, css } = createStitches({
         }
     },
     prefix: 'class',
-    utils: {}
+    utils: {
+        wrem: (value: number) => ({
+            width: `${value / 16}rem`
+        }),
+        hrem: (value: number) => ({
+            height: `${value / 16}rem`
+        }),
+        rem: (value: number) => ({
+            width: `${value / 16}rem`,
+            height: `${value / 16}rem`
+        }),
+        brem: (value: number) => ({
+            borderRadius: `${value / 16}rem`
+        })
+    }
 })
 
 export const cssGlobal = globalCss({

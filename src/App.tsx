@@ -1,4 +1,5 @@
 import React from 'react'
+import { AuthProvider } from './Contexts/Auth'
 import Routes from './Services/Routes'
 /**
  *
@@ -11,7 +12,13 @@ import Routes from './Services/Routes'
  */
 
 const App: React.FC = () => {
-    return <Routes />
+    return (
+        <>
+            <AuthProvider>
+                <Routes />
+            </AuthProvider>
+        </>
+    )
 }
 
 export default App

@@ -1,5 +1,6 @@
 import React from 'react'
 import Index from '../../Components/Index'
+import Login from '../../Components/Login'
 import Main from '../../Components/Main'
 /**
  *
@@ -16,6 +17,7 @@ const IndexPage: React.FC = () => {
         <>
             <Index />
             <Main />
+            {/* <Login /> */}
         </>
     )
 }
